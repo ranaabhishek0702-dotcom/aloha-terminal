@@ -1,0 +1,29 @@
+{
+  "name": "aloha-terminal",
+  "version": "1.0.0",
+  "description": "Areal Location of Hazardous Atmosphere (ALOHA) - Terminal Disaster Management Tool",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "aloha": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/verify_dispersion.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "inquirer": "^9.2.14"
+  },
+  "keywords": [
+    "aloha",
+    "disaster-management",
+    "dispersion-model",
+    "gaussian-plume",
+    "idlh",
+    "terminal-app"
+  ],
+  "author": "Disaster Management Cell / MHA",
+  "license": "ISC"
+}
